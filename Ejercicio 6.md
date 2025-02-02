@@ -1,3 +1,4 @@
+Rama 1
 def desglose_basico(cantidad):
 billetes_monedas = [500, 200, 100, 50, 20, 10, 5, 2, 1]
 desglose = {}
@@ -45,7 +46,7 @@ else:
 return cantidad
 excepto ValueError:
 print("Por favor, introduzca un número entero válido.")
-
+Rama 2
 def main():
 cantidad = obtener_cantidad()
 resultado = desglose_mejorado(cantidad)
@@ -76,7 +77,7 @@ else:
 return cantidad
 excepto ValueError:
 print("Por favor, introduzca un número entero válido.")
-
+Rama 3
 def main():
 cantidad = obtener_cantidad()
 resultado = desglose_formateado(cantidad)
